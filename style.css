@@ -1,0 +1,21 @@
+.header {
+    display:flex;
+    justify-content: center;
+}
+
+.main {
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    flex: 1;
+    border: black;
+}
+
+.grid-container {
+    flex: 5;
+    border: black;
+}
