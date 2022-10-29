@@ -12,10 +12,10 @@
 
 .info {
     flex: 1;
-    border: black;
+    border: 1px solid black;
 }
 
 .grid-container {
     flex: 5;
-    border: black;
+    border: 1px solid black;
 }
