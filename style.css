@@ -15,7 +15,18 @@
     border: 1px solid black;
 }
 
-.grid-container {
-    flex: 5;
+#grid-container {
+    flex: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 440px;
+}
+
+.grid-block {
+    background-color: bisque;
     border: 1px solid black;
+    width: 25px;
+    height: 25px;
 }
