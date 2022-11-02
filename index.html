@@ -13,7 +13,15 @@
     </div>
 
     <div class="main">
-        <div class="info">Place mouse over grid to begin sketching</div>
+        <div class="info">
+            <p>Place mouse over grid to begin sketching</p>
+            <div class="slider-container">
+                <p>Adjust size of grid</p>
+                <p id="gridSizeText">16x16</p>
+                <input type="range" min="16" max="64" value="16" id="gridSizeSlider">
+            </div>
+            
+        </div>
         <div id="grid-container">
 
         </div>

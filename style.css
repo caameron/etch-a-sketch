@@ -11,8 +11,12 @@
 }
 
 .info {
-    flex: 1;
-    border: 1px solid black;
+    flex: none;
+    width: 300px;
+}
+
+.info > p {
+    text-align: center;
 }
 
 #grid-container {
@@ -26,4 +30,11 @@
 
 .grid-block {
     background-color: bisque;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
